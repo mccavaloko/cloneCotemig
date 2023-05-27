@@ -1,0 +1,501 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap";
+
+:root {
+    --cor-principal: #151515;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #40aa0b;
+    --cor-quaternaria: #2e2e2e;
+    --cor-footer: #bdbdbd;
+    --preto: #000000;
+    --fonte-primaria: "Lato", sans-serif;
+    --fonte-secundaria: Arial, Helvetica, sans-serif;
+}
+
+b{
+    font-weight: 700;
+}
+
+header{
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+}
+
+.telefone {
+    background-color: var(--preto);
+    color: var(--cor-secundaria);
+    height: 2.5rem;
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    top: 0;
+}
+
+.telefone p {
+    padding-top: 12px;
+    padding-left: 577px;
+}
+
+.menu {
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--cor-secundaria);
+    height: 2.5rem;
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    position: sticky;
+    padding: 1rem;
+    top:0;
+}
+
+.menu__img {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    padding-left: 390px;
+}
+
+.menu__lista {
+    padding-left: 400px;
+    float: center;
+    font-size: .875em;
+}
+
+.menu__lista__item {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 2.5rem;
+}
+
+.area{
+    border-left: dashed gray 1px;
+}
+
+.menu__lista__item a {
+    transition: all .2s ease-in;
+}
+
+.menu__lista__item a:hover {
+    color: var(--cor-terciaria);
+    transition: all .2s ease-in;
+}
+
+.list::after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--cor-secundaria);
+    margin-left: 5px;
+    position: relative;
+}
+
+.banner{    
+    background-image: url(../img/banner.png);
+    height: 59vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -72px;
+    color: var(--cor-secundaria);
+}
+
+.banner__container{
+    font-family: var(--fonte-primaria);
+    position: absolute;
+    top: 225px;
+    left: 362px;
+}
+
+.banner__container__titulo{
+    font-weight: 900;
+    font-size: 2.375em;
+}
+
+.banner__container__texto{
+    font-size: 1.125em;
+    padding: 20px 0 60px 0;
+}
+
+.button{
+    background-color: #40aa0b;
+}
+
+.button:hover{
+    background-color: var(--cor-terciaria);
+}
+
+.banner__container__button{
+    font-size: 0.875em;
+    border-radius: 8px;
+    padding: 13px 75px;
+}
+
+.main__container{
+    text-align: center;
+    font-family: var(--fonte-primaria);
+}
+
+.main__container h2{ 
+    font-weight: 900;
+    font-size: 2.5em;
+    padding-bottom: 15px;
+}
+
+.main__container p{ 
+    font-size: 1.125em;
+    padding-bottom: 15px;
+}
+
+.main__cards{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main__cards__img{
+    
+    border-radius: 15px 15px 0 0;
+    display: inline-block;
+    width: 284px;
+    height: 175px;
+    filter: brightness(65%);
+    padding: 0px 5px 0px 5px;
+    object-fit: cover;
+}
+
+.main__cards__conteudo{
+    font-family: var(--fonte-primaria);
+    width: 284px;
+    height: 60px;
+    box-shadow: .2px .2px .2px .2px gray;
+    position: absolute;
+    line-height: 3.5;
+    font-weight: 700;
+}
+
+.medio{
+    left: 660px;
+}
+
+.referencia{
+    top: 1045px;
+    left: 660px;
+}
+
+.sistemas{
+    top: 983px;
+    left: 958px;
+}
+
+.ads{
+    top: 1045px;
+    left: 958px;
+}
+
+.cc{
+    top: 1105px;
+    left: 958px;
+}
+
+.main__cards__texto{
+    font-family: var(--fonte-primaria);
+    color: white;
+    position: absolute;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.tecnico{
+    left: 679px;
+    top: 945px;
+}
+
+.graduacoes{
+    left: 975px;
+    top: 945px;
+}
+
+.unidades{
+    margin-top: 220px;
+}
+
+.main__unidades__cards{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main__unidades__cards__imgs{
+    padding: 0px 5px 0px 5px;
+    border-radius: 8px 8px 0 0;
+}
+
+.main__cards__conteudo__unidade{
+    font-family: var(--fonte-primaria);
+    width: 382px;
+    height: 128px;
+    box-shadow: .2px .2px .2px .2px gray;
+    position: absolute;
+    font-weight: 700;
+}
+
+.unidade__texto{
+    padding-top: 1em;
+}
+
+.main__cards__conteudo__unidade h3{
+    font-size: 1.25em;
+    color: #424242;
+}
+
+.barroca{
+    left: 365px;
+}
+
+.floresta{
+    left: 759px;
+}
+
+.escritorio{
+    left: 1153px;
+}
+
+.centralAtendimento{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.centralAtendimento__titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+    color: var(--cor-quaternaria);
+    font-size: 1.25em;
+    padding-bottom: 15px;
+}
+
+.centralAtendimento__texto{
+    font-family: var(--fonte-primaria);
+    font-weight: 900;
+    font-size: 2em;
+    color: var(--cor-terciaria);
+}
+
+.noticias{
+    margin-top: 100px;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+}
+
+.noticias__titulo{   
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.noticias__todas{
+    color: var(--cor-quaternaria);
+    font-weight: 700;
+    font-size: 0.875em;
+    position: absolute;
+    left: 1460px;
+    top: 1965px;
+}
+
+.noticias__card{
+    width: 278px;
+    height: 324px;
+    background-color: var(--cor-principal);
+    display: inline-block;
+    margin: 50px 5px 50px 5px;
+    border-radius: 16px;
+    text-align: left;
+    position: relative;
+}
+
+
+.card1{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+    url(../img/card1.png);
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease-in-out;
+    background-size: cover;
+}
+
+.card__text{
+    
+    color: var(--cor-secundaria);
+    position: absolute;
+    bottom: 43px;
+    font-weight: 700;
+    left: 25px;
+}
+
+.noticias__card p {
+    color: var(--cor-secundaria);
+    position: absolute;
+    bottom: 20px;
+    font-style: italic;
+    left: 25px;
+}
+
+.card__text span{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.card2{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8)),
+    url(../img/card2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card3{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+    url(../img/card3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card4{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+    url(../img/card4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    height: 38vh;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    position: relative;
+}
+
+.footer__lista {
+    position: absolute;
+}
+
+.ul__footer a{
+    color: var(--cor-footer);
+    font-size: 	0.8750em;
+}
+
+.ul__footer li{
+    text-align: left;
+    padding-top: 16px;
+}
+
+.footer__lista h2 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 1.1250em;
+    padding-bottom: 15px;
+}
+
+.sobreNos{
+    left: 400px;
+}
+
+
+.nossosCursos{
+    left: 600px;
+}
+
+.outros{
+    left: 900px;
+}
+
+.caminho{
+    text-align: left;
+    left: 1150px;
+}
+
+.caminho h2{
+    font-size: 1em;
+}
+
+.caminho p{
+    color: var(--cor-footer);
+    font-size: 0.875em;
+    padding-top: 10px;
+}
+
+.footer__button{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 0.875em;
+    border-radius: 8px;
+    padding: 15px 100px;
+}
+
+.hrFooter{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    width: 1130px;
+    border-color: var(--cor-quaternaria)
+}
+
+.logoCredito{
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    bottom: 80px
+}
+
+.colegio{
+    position: absolute;
+    left: 800px;
+    bottom: 80px;
+    text-align: left;
+}
+
+.colegio h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.icon{
+    margin-right: 15px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding: 7px 13px 0px 17px;
+    border-radius: 3px;
+}
+
+.fb{
+    background-color: #4460a0;
+}
+
+.insta{
+    background-color: #ffffff;
+}
+
+.linkedin{
+    background-color: #0077b5;
+    padding: 0px 15px 10px 15px;
+
+}
+
+.twitter{
+    background-color: #1da1f2;
+    padding: 10px 10px 0px 15px;
+    line-height: 2;
+}
+
+.faculdade{
+    position: absolute;
+    left: 1200px;
+    bottom: 80px;
+    text-align: left;
+}
+
+.faculdade h3{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
